@@ -1,0 +1,74 @@
+.red {
+  color: red;
+  width: 200px;
+	height: 20px;
+}
+.green {
+  color: green
+}
+#boldblue {
+  font-weight: bold;
+  color: blue;
+  }
+
+.full {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top {
+background: blue;
+flex-basis: 70%;
+min-height: 150px;
+}
+
+.foto {
+background: red;
+flex-basis: 30%;
+min-height: 150px;
+}
+
+.intro {
+background: green;
+flex-basis: 100%;
+min-height: 150px;
+}
+
+.lewakolumna {
+background: yellow;
+flex-basis: 50%;
+min-height: 150px;
+}
+
+.prawakolumna {
+background: grey;
+flex-basis: 50%;
+min-height: 150px;
+}
+
+.down {
+background: blue;
+flex-basis: 100%;
+min-height: 150px;
+}
+
+.kwadrat {
+  width: 100px;
+	height: 100px;
+  background-color: green
+}
+.owal {
+  width: 100px;
+	height: 120px;
+  background-color: red;
+  border-radius: 100%;
+  margin-top: 20px
+}
+.trójkąt {
+  width: 100px;
+	height: 100px;
+  background-color: blue;
+  border-left: 50px solid purple;
+  border-right: 50px solid purple;
+  margin-top: 20px
+}
